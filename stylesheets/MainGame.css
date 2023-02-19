@@ -1,0 +1,39 @@
+/* styling for blank word section */
+
+.blankLetter, .guessedLetter {
+    min-width: 3vw;
+    font-size: x-large;
+    margin-right: 0.2vw;
+    margin-left: 0.2vw;
+  }
+  
+  .blankWord {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* styling for hangman image */
+  img {
+    margin: 5vw;
+    border: solid navy 0.5vw;
+    border-radius: 10%;
+  }
+  
+  /* styling for alphabet to guess letters from */
+  .guessed {
+    background: midnightblue;
+    color: midnightblue;
+  }
+
+  .notGuessed {
+    background-color: rgb(196, 215, 250);
+  }
+
+  .guessed, .notGuessed {
+    font-size: larger;
+    margin: 0.1vw;
+    min-width: 27px; 
+  }

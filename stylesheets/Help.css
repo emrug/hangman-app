@@ -1,0 +1,12 @@
+/* Styling for the help button and help text section */
+#helpButton {
+    background-color: midnightblue;
+    color: white;
+    font-size:larger;
+}
+
+#helpText {
+    text-align: left;
+    line-height: 1.5;
+}
+

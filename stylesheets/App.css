@@ -1,0 +1,17 @@
+/* Set default background colours and font for app */
+body {
+  background-color: peachpuff;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: midnightblue;
+}
+
+/* styling playagain button */
+#playAgainButton {
+  background-color: midnightblue;
+  color: white;
+  font-size: larger;
+}
